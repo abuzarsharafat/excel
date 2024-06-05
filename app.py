@@ -9,6 +9,16 @@ def clean_excel(file):
     df_cleaned = df.dropna()
     return df_cleaned
 
+# Hide Streamlit branding
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+    """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # Title of the app
 st.markdown("""
     <h1 style='text-align: center;'>Excel File Cleaner</h1>
