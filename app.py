@@ -22,6 +22,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Title of the app
 st.markdown("""
     <h1 style='text-align: center;'>Excel File Cleaner</h1>
+    <h3 style='text-align: center;'>by Abuzar</h3>
     """, unsafe_allow_html=True)
 
 # File upload functionality
